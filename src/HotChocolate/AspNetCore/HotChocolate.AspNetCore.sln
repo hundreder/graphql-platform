@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotChocolate.Tests.Utilitie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotChocolate.Subscriptions.Redis", "..\Core\src\Subscriptions.Redis\HotChocolate.Subscriptions.Redis.csproj", "{27CA4A78-BB00-4623-AA7D-90F168E3E637}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenDonut.Tests", "..\..\GreenDonut\test\Core.Tests\GreenDonut.Tests.csproj", "{264CC144-96D6-449C-8A5A-1505677277A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -282,6 +284,10 @@ Global
 		{27CA4A78-BB00-4623-AA7D-90F168E3E637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27CA4A78-BB00-4623-AA7D-90F168E3E637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27CA4A78-BB00-4623-AA7D-90F168E3E637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264CC144-96D6-449C-8A5A-1505677277A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264CC144-96D6-449C-8A5A-1505677277A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264CC144-96D6-449C-8A5A-1505677277A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264CC144-96D6-449C-8A5A-1505677277A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E80C2EDA-EA67-4B21-BDE6-1F48F8A880C8} = {C65E3444-5DCA-4E90-9B0B-4F6F8854FAF6}
@@ -329,5 +335,6 @@ Global
 		{40D02A19-25DD-40BF-B101-7DC17EBE6850} = {AA1CAAC0-181C-4A17-8151-107B097BABAB}
 		{08393441-CBE7-44E0-878B-14EBEE26F568} = {AA1CAAC0-181C-4A17-8151-107B097BABAB}
 		{27CA4A78-BB00-4623-AA7D-90F168E3E637} = {AA1CAAC0-181C-4A17-8151-107B097BABAB}
+		{264CC144-96D6-449C-8A5A-1505677277A7} = {5C25E317-7FA2-4078-97F2-509572E0FF37}
 	EndGlobalSection
 EndGlobal
